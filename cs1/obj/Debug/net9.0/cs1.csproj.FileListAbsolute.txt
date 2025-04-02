@@ -1,0 +1,14 @@
+/Users/tom/Dev/c++/cs1/bin/Debug/net9.0/cs1
+/Users/tom/Dev/c++/cs1/bin/Debug/net9.0/cs1.deps.json
+/Users/tom/Dev/c++/cs1/bin/Debug/net9.0/cs1.runtimeconfig.json
+/Users/tom/Dev/c++/cs1/bin/Debug/net9.0/cs1.dll
+/Users/tom/Dev/c++/cs1/bin/Debug/net9.0/cs1.pdb
+/Users/tom/Dev/c++/cs1/obj/Debug/net9.0/cs1.GeneratedMSBuildEditorConfig.editorconfig
+/Users/tom/Dev/c++/cs1/obj/Debug/net9.0/cs1.AssemblyInfoInputs.cache
+/Users/tom/Dev/c++/cs1/obj/Debug/net9.0/cs1.AssemblyInfo.cs
+/Users/tom/Dev/c++/cs1/obj/Debug/net9.0/cs1.csproj.CoreCompileInputs.cache
+/Users/tom/Dev/c++/cs1/obj/Debug/net9.0/cs1.dll
+/Users/tom/Dev/c++/cs1/obj/Debug/net9.0/refint/cs1.dll
+/Users/tom/Dev/c++/cs1/obj/Debug/net9.0/cs1.pdb
+/Users/tom/Dev/c++/cs1/obj/Debug/net9.0/cs1.genruntimeconfig.cache
+/Users/tom/Dev/c++/cs1/obj/Debug/net9.0/ref/cs1.dll

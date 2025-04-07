@@ -26,8 +26,8 @@ int main() {
     DrawCircle(x, y, 20, YELLOW);
     if ( x > wx - r || x < r ) vx = -vx; 
     if ( y > wy - r || y < r) vy = -vy;
-    DrawText( "Dr. Németh Tamás", 20, 20, 80, GREEN );
-    DrawFPS( 1100, 800 );
+    DrawText( "Dr. Németh Tamás", 20, 20, 30, GREEN );
+    DrawFPS( 1180, 840 );
     EndDrawing();
   }
   CloseWindow();

@@ -1,31 +1,36 @@
 #include <raylib.h>
+#include <iostream>
 
 int main() {
-    SetTargetFPS(300);
-    const int wx = 1280, wy = 877, r=20;
-    InitWindow(wx, wy, "Raylib - Kör");
-    double x = 0, y = 0, vx = 1, vy = 1;
-    while (!WindowShouldClose()) {
-        x += vx;
-        y += vy;
-        BeginDrawing();
-        ClearBackground(BLACK);
-        DrawCircle(x, y, 20, YELLOW);
-        if (x > wx - r) {
-            vx = -1;
-        }
-        if (x < r) {
-            vx = 1;
-        }
-        if (y > wy - r) {
-            vy = -1;
-        }
-        if (y < r) {
-            vy = 1;
-        }
-        DrawText("Dr. Németh Tamás", 20, 20, 120, GREEN);
-        EndDrawing();
+  SetTargetFPS( 300 );
+  const int wx = 1280, wy = 877, r=20;
+  InitWindow(wx, wy, "Raylib - Kör");
+  double x = 100, y = 200, vx = 1, vy = 1;
+  int mx = 100, my = 200;
+  while ( !WindowShouldClose() ) {
+    x += vx;
+    y += vy;
+    BeginDrawing();      
+    HideCursor();
+    ClearBackground( BLACK );
+    if ( IsMouseButtonDown( 0 ) ) {
+      mx = GetMouseX();
+      my = GetMouseY();
+      vx += ( mx - x ) / 10000.0;
+      vy += ( my - y ) / 10000.0;
+    } else {
+      mx = GetMouseX();
+      my = GetMouseY();
     }
-    CloseWindow();
-    return 0;
+    DrawCircleLines( mx, my, 20, GREEN );
+    DrawCircle(x, y, 20, YELLOW);
+    if ( x > wx - r || x < r ) vx = -vx; 
+    if ( y > wy - r || y < r) vy = -vy;
+    DrawText( "Dr. Németh Tamás", 20, 20, 80, GREEN );
+    DrawFPS( 1100, 800 );
+    EndDrawing();
+  }
+  CloseWindow();
+  std::cout << "Bye..." << std::endl; 
+  return 0;
 }

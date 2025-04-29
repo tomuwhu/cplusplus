@@ -142,7 +142,7 @@ bool matches(const NFA& nfa, const string& text) {
 }
 
 int main() {
-    string pattern = "b*b";
+    string pattern = "a*b";
     string text = "aaab";
 
     RegexParser parser(pattern);

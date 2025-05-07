@@ -3,7 +3,7 @@
 
 int main() {
   SetTargetFPS( 300 );
-  const int wx = 1280, wy = 877, r=20;
+  const int wx = 1280, wy = 877, r = 20;
   InitWindow(wx, wy, "Raylib - Kör");
   double x = 100, y = 200, vx = 1, vy = 1;
   int mx = 100, my = 200;

@@ -3,7 +3,7 @@
 #include <iostream>
 
 using namespace std;
-
+// https://www.hackerrank.com/challenges/simple-array-sum/problem
 int main()
 { 
   vector<int> ar = {32, 12, 32, 12, 432};

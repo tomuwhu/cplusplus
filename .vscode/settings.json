@@ -8,5 +8,6 @@
   },
   "dotnet.defaultSolution": "cs1.sln",
   "editor.fontFamily": "Iosevka",
-  "editor.fontSize": 13
+  "editor.fontSize": 12,
+  "files.autoSave": "afterDelay"
 }
